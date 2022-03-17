@@ -5,6 +5,7 @@ const pacArray = [
 ];
 var direction = 0;
 const pacMen = [];
+let focus = 0;
 
 function setToRandom(scale) {
     return {
@@ -17,6 +18,7 @@ function makePac() {
     // returns an object with values scaled {x: 33, y: 21}
     let velocity = setToRandom(10);
     let position = setToRandom(200);
+
     // Add image to div id = game
     let game = document.getElementById('game');
     let newimg = document.createElement('img');
@@ -57,3 +59,4 @@ function checkCollisions(item) {
 function makeOne() {
     pacMen.push(makePac()); // add a new PacMan
 }
+
