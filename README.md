@@ -24,6 +24,9 @@ There is nothing really to install, you can download the code and run it so long
 
 Execution of this project is as easy as opening the index.html file in an internet browser.
 
+### Roadmap of Future Improvements
+It is my hope that I can revisit this project to incorporate new technologies and styels as I progress in the MIT program. Please check back frequently as I anticipate 
+making this project better.
 
 ## Authors
 
